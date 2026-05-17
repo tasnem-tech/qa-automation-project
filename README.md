@@ -1,6 +1,6 @@
 # QA Automation Project
 
-Beginner QA Automation Testing project using Python and Selenium.
+ QA Automation Testing project using Python and Selenium.
 
 ## Features
 - Automated browser testing
