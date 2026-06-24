@@ -6,7 +6,7 @@ A practical QA Automation Testing project built to automate web application test
 
 This project demonstrates hands-on experience in test automation, browser testing, form validation, login testing, regression testing, and quality assurance using Python, Selenium WebDriver, and Pytest.
 
----
+
 
 ## 🚀 Project Overview
 
@@ -73,9 +73,7 @@ QA-Automation-Project/
 │
 ├── requirements.txt
 └── README.md
-```
 
----
 
 ## 🛠 Technology Stack
 
@@ -117,9 +115,7 @@ Validation & Assertions
 Test Results
     ↓
 Reports & Logs
-```
 
----
 
 ## ⚙️ Installation
 
