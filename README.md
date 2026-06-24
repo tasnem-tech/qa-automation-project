@@ -1,52 +1,48 @@
+````markdown
 # 🧪 QA Automation Testing Framework
 
-### Automated Web Application Testing with Python & Selenium
+## Automated Web Application Testing with Python & Selenium
 
-A comprehensive QA Automation Testing project designed to automate web application testing, improve software quality, and reduce manual testing effort.
+A practical QA Automation Testing project built to automate web application testing, improve software quality, and reduce repetitive manual testing.
 
-This project demonstrates practical experience in test automation, browser testing, form validation, and quality assurance using industry-standard tools and frameworks.
+This project demonstrates hands-on experience in test automation, browser testing, form validation, login testing, regression testing, and quality assurance using Python, Selenium WebDriver, and Pytest.
 
 ---
 
 ## 🚀 Project Overview
 
-The framework automates common testing scenarios and validates web application functionality through browser-based testing.
+This framework automates common web testing scenarios and validates application functionality through browser-based testing.
 
 It is designed to support:
 
-* Functional Testing
-* Regression Testing
-* UI Testing
-* Form Validation
-* Login Authentication Testing
+- Functional testing
+- Regression testing
+- UI testing
+- Form validation testing
+- Login authentication testing
+- Bug verification
 
 ---
 
 ## ✨ Features
 
 ### 🌐 Automated Browser Testing
-
-Execute automated test cases across web applications.
+Executes automated test cases across web applications using Selenium WebDriver.
 
 ### 🔐 Login Testing
-
-Validate user authentication workflows.
+Validates user authentication workflows including valid and invalid login attempts.
 
 ### 📝 Form Validation Testing
-
-Verify required fields, input validation, and error handling.
+Checks required fields, input validation, and user-facing error messages.
 
 ### ⚡ Automated Test Execution
-
-Reduce repetitive manual testing through automation.
+Reduces repetitive manual testing by running reusable automated test scripts.
 
 ### 📊 Test Reporting
+Supports test result logging and reporting for QA review.
 
-Generate test execution results and logs.
-
-### 🧩 Reusable Test Scripts
-
-Organized and scalable automation structure.
+### 🧩 Reusable Test Structure
+Uses an organized project structure that can be expanded for larger testing workflows.
 
 ---
 
@@ -72,7 +68,7 @@ QA-Automation-Project/
 │
 ├── requirements.txt
 └── README.md
-```
+````
 
 ---
 
@@ -84,21 +80,21 @@ QA-Automation-Project/
 | Selenium WebDriver | Browser automation   |
 | ChromeDriver       | Browser execution    |
 | Pytest             | Test execution       |
-| HTML Reports       | Reporting            |
+| HTML Reports       | Test reporting       |
 | Git & GitHub       | Version control      |
 
 ---
 
 ## 📊 Automated Test Coverage
 
-| Test Scenario              | Status |
-| -------------------------- | ------ |
-| Login Validation           | ✅      |
-| Invalid Credentials        | ✅      |
-| Form Submission            | ✅      |
-| Required Field Checks      | ✅      |
-| Error Message Verification | ✅      |
-| Browser Navigation         | ✅      |
+| Test Scenario               | Status |
+| --------------------------- | ------ |
+| Login validation            | ✅      |
+| Invalid credentials testing | ✅      |
+| Form submission testing     | ✅      |
+| Required field checks       | ✅      |
+| Error message verification  | ✅      |
+| Browser navigation testing  | ✅      |
 
 ---
 
@@ -135,13 +131,13 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run test cases:
+Run all test cases:
 
 ```bash
 pytest
 ```
 
-Run a specific test:
+Run a specific test file:
 
 ```bash
 pytest tests/test_login.py
@@ -157,19 +153,22 @@ pytest tests/test_login.py
 * Parallel test execution
 * Docker support
 * Test dashboard reporting
+* Page Object Model improvements
 
 ---
 
 ## 🎯 Skills Demonstrated
 
-* QA Automation Testing
+* QA automation testing
 * Selenium WebDriver
-* Python Programming
-* Test Case Design
-* Functional Testing
-* Regression Testing
-* Bug Verification
-* Software Quality Assurance
+* Python programming
+* Pytest test execution
+* Test case design
+* Functional testing
+* Regression testing
+* Bug verification
+* Software quality assurance
+* Git and GitHub workflow
 
 ---
 
@@ -182,3 +181,6 @@ QA Automation • Software Testing • Python • Selenium
 ---
 
 ⭐ If you found this project useful, please consider giving it a star.
+
+```
+```
