@@ -21,7 +21,7 @@ It supports:
 * Login authentication testing
 * Bug verification
 
----
+
 
 ## ✨ Features
 
@@ -49,11 +49,11 @@ Supports test result logging and reporting for QA review.
 
 Uses an organized project structure that can be expanded for larger testing workflows.
 
----
+
 
 ## 📁 Project Structure
 
-```
+
 QA-Automation-Project/
 │
 ├── tests/
@@ -134,17 +134,15 @@ pip install -r requirements.txt
 
 Run all test cases:
 
-```
+
 pytest
-```
+
 
 Run a specific test file:
 
-```
-pytest tests/test_login.py
-```
 
----
+pytest tests/test_login.py
+
 
 ## 📈 Future Enhancements
 
@@ -156,7 +154,6 @@ pytest tests/test_login.py
 * Test dashboard reporting
 * Page Object Model improvements
 
----
 
 ## 🎯 Skills Demonstrated
 
@@ -171,7 +168,7 @@ pytest tests/test_login.py
 * Software quality assurance
 * Git and GitHub workflow
 
----
+
 
 ## 👩‍💻 Author
 
@@ -179,6 +176,6 @@ pytest tests/test_login.py
 
 QA Automation • Software Testing • Python • Selenium
 
----
+
 
 ⭐ If you found this project useful, please consider giving it a star.
