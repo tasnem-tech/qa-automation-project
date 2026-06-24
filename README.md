@@ -1,4 +1,3 @@
-````markdown
 # 🧪 QA Automation Testing Framework
 
 ## Automated Web Application Testing with Python & Selenium
@@ -13,42 +12,48 @@ This project demonstrates hands-on experience in test automation, browser testin
 
 This framework automates common web testing scenarios and validates application functionality through browser-based testing.
 
-It is designed to support:
+It supports:
 
-- Functional testing
-- Regression testing
-- UI testing
-- Form validation testing
-- Login authentication testing
-- Bug verification
+* Functional testing
+* Regression testing
+* UI testing
+* Form validation testing
+* Login authentication testing
+* Bug verification
 
 ---
 
 ## ✨ Features
 
 ### 🌐 Automated Browser Testing
+
 Executes automated test cases across web applications using Selenium WebDriver.
 
 ### 🔐 Login Testing
-Validates user authentication workflows including valid and invalid login attempts.
+
+Validates user authentication workflows, including valid and invalid login attempts.
 
 ### 📝 Form Validation Testing
+
 Checks required fields, input validation, and user-facing error messages.
 
 ### ⚡ Automated Test Execution
+
 Reduces repetitive manual testing by running reusable automated test scripts.
 
 ### 📊 Test Reporting
+
 Supports test result logging and reporting for QA review.
 
 ### 🧩 Reusable Test Structure
+
 Uses an organized project structure that can be expanded for larger testing workflows.
 
 ---
 
 ## 📁 Project Structure
 
-```text
+```
 QA-Automation-Project/
 │
 ├── tests/
@@ -68,7 +73,7 @@ QA-Automation-Project/
 │
 ├── requirements.txt
 └── README.md
-````
+```
 
 ---
 
@@ -100,7 +105,7 @@ QA-Automation-Project/
 
 ## 🖥️ Framework Workflow
 
-```text
+```
 Test Case
     ↓
 Selenium WebDriver
@@ -120,26 +125,26 @@ Reports & Logs
 
 Clone the repository:
 
-```bash
+```
 git clone https://github.com/tasnem-tech/qa-automation-project.git
 cd qa-automation-project
 ```
 
 Install dependencies:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 Run all test cases:
 
-```bash
+```
 pytest
 ```
 
 Run a specific test file:
 
-```bash
+```
 pytest tests/test_login.py
 ```
 
@@ -181,6 +186,3 @@ QA Automation • Software Testing • Python • Selenium
 ---
 
 ⭐ If you found this project useful, please consider giving it a star.
-
-```
-```
