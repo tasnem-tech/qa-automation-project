@@ -1,181 +1,243 @@
-# 🧪 QA Automation Testing Framework
+<div align="center">
 
-## Automated Web Application Testing with Python & Selenium
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=250&section=header&text=QA%20Automation%20Framework&fontSize=50&fontColor=ffffff&animation=fadeIn"/>
 
-A practical QA Automation Testing project built to automate web application testing, improve software quality, and reduce repetitive manual testing.
+# 🚀 QA Automation Testing Framework
 
-This project demonstrates hands-on experience in test automation, browser testing, form validation, login testing, regression testing, and quality assurance using Python, Selenium WebDriver, and Pytest.
+### 🧪 Professional Web Automation Framework using Python & Selenium
 
+<p>
+<img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/Selenium-WebDriver-green?style=for-the-badge&logo=selenium"/>
+<img src="https://img.shields.io/badge/Pytest-Testing-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge"/>
+<img src="https://img.shields.io/github/stars/tasnem-tech/qa-automation-project?style=for-the-badge"/>
+<img src="https://img.shields.io/github/forks/tasnem-tech/qa-automation-project?style=for-the-badge"/>
+</p>
 
+### ⚡ Automating repetitive testing with Python, Selenium & Pytest
 
-## 🚀 Project Overview
+</div>
 
-This framework automates common web testing scenarios and validates application functionality through browser-based testing.
+---
 
-It supports:
+# 📖 Overview
 
-* Functional testing
-* Regression testing
-* UI testing
-* Form validation testing
-* Login authentication testing
-* Bug verification
+This project is a **professional QA Automation Testing Framework** built to automate browser testing, improve software quality, and reduce repetitive manual testing.
 
+It demonstrates modern software testing practices including:
 
+- 🔐 Login Automation
+- 📝 Form Validation
+- 🌐 Browser Automation
+- 📊 Test Reporting
+- 🔄 Regression Testing
+- ✅ Functional Testing
 
-## ✨ Features
+---
 
-### 🌐 Automated Browser Testing
+# ✨ Features
 
-Executes automated test cases across web applications using Selenium WebDriver.
+| Feature | Status |
+|----------|:------:|
+| 🔐 Login Testing | ✅ |
+| 📝 Registration Testing | ✅ |
+| 🌐 Browser Automation | ✅ |
+| 📋 Form Validation | ✅ |
+| 🚨 Error Message Verification | ✅ |
+| 🔄 Regression Testing | ✅ |
+| 📊 HTML Test Reports | ✅ |
+| 📸 Screenshot Capture | ✅ |
 
-### 🔐 Login Testing
+---
 
-Validates user authentication workflows, including valid and invalid login attempts.
+# 🏗 Framework Architecture
 
-### 📝 Form Validation Testing
+```text
+                    Test Cases
+                         │
+                         ▼
+               Selenium WebDriver
+                         │
+                         ▼
+                Browser Automation
+                         │
+                         ▼
+               Assertions & Validation
+                         │
+                         ▼
+              HTML Reports & Screenshots
+```
 
-Checks required fields, input validation, and user-facing error messages.
+---
 
-### ⚡ Automated Test Execution
+# 📂 Project Structure
 
-Reduces repetitive manual testing by running reusable automated test scripts.
-
-### 📊 Test Reporting
-
-Supports test result logging and reporting for QA review.
-
-### 🧩 Reusable Test Structure
-
-Uses an organized project structure that can be expanded for larger testing workflows.
-
-
-
-## 📁 Project Structure
-
-
-QA-Automation-Project/
+```text
+QA-Automation-Framework/
 │
-├── tests/
+├── 📂 tests
 │   ├── test_login.py
 │   ├── test_registration.py
 │   └── test_forms.py
 │
-├── pages/
+├── 📂 pages
+│   ├── base_page.py
 │   ├── login_page.py
-│   └── base_page.py
+│   └── registration_page.py
 │
-├── reports/
+├── 📂 reports
 │
-├── screenshots/
+├── 📂 screenshots
 │
-├── utils/
+├── 📂 utils
 │
-├── requirements.txt
-└── README.md
-
-
-## 🛠 Technology Stack
-
-| Tool               | Purpose              |
-| ------------------ | -------------------- |
-| Python             | Automation scripting |
-| Selenium WebDriver | Browser automation   |
-| ChromeDriver       | Browser execution    |
-| Pytest             | Test execution       |
-| HTML Reports       | Test reporting       |
-| Git & GitHub       | Version control      |
+├── 📜 requirements.txt
+├── 📜 README.md
+└── 📜 LICENSE
+```
 
 ---
 
-## 📊 Automated Test Coverage
+# 💻 Tech Stack
 
-| Test Scenario               | Status |
-| --------------------------- | ------ |
-| Login validation            | ✅      |
-| Invalid credentials testing | ✅      |
-| Form submission testing     | ✅      |
-| Required field checks       | ✅      |
-| Error message verification  | ✅      |
-| Browser navigation testing  | ✅      |
+| Technology | Purpose |
+|------------|----------|
+| 🐍 Python | Programming |
+| 🧪 Selenium | Browser Automation |
+| ⚙️ Pytest | Test Runner |
+| 🌍 ChromeDriver | Browser Driver |
+| 📊 HTML Reports | Reporting |
+| 🖥 GitHub | Version Control |
 
 ---
 
-## 🖥️ Framework Workflow
+# 📊 Automated Test Coverage
 
-```
-Test Case
-    ↓
-Selenium WebDriver
-    ↓
-Browser Interaction
-    ↓
-Validation & Assertions
-    ↓
-Test Results
-    ↓
-Reports & Logs
+| Scenario | Result |
+|----------|:------:|
+| Login | ✅ |
+| Invalid Login | ✅ |
+| Registration | ✅ |
+| Form Validation | ✅ |
+| Required Fields | ✅ |
+| Browser Navigation | ✅ |
+| UI Verification | ✅ |
 
+---
 
-## ⚙️ Installation
+# 🚀 Installation
 
-Clone the repository:
+Clone the repository
 
-```
+```bash
 git clone https://github.com/tasnem-tech/qa-automation-project.git
+```
+
+Go to the project
+
+```bash
 cd qa-automation-project
 ```
 
-Install dependencies:
+Install dependencies
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
-Run all test cases:
+---
 
+# ▶️ Run Tests
 
+Run all tests
+
+```bash
 pytest
+```
 
+Run login tests
 
-Run a specific test file:
-
-
+```bash
 pytest tests/test_login.py
+```
 
+Generate HTML report
 
-## 📈 Future Enhancements
+```bash
+pytest --html=reports/report.html
+```
 
-* Cross-browser testing
-* CI/CD integration with GitHub Actions
-* Automated screenshot capture
-* Parallel test execution
-* Docker support
-* Test dashboard reporting
-* Page Object Model improvements
+---
 
+# 📸 Screenshots
 
-## 🎯 Skills Demonstrated
+<div align="center">
 
-* QA automation testing
-* Selenium WebDriver
-* Python programming
-* Pytest test execution
-* Test case design
-* Functional testing
-* Regression testing
-* Bug verification
-* Software quality assurance
-* Git and GitHub workflow
+| Login Test | HTML Report |
+|------------|-------------|
+| *(Add Screenshot)* | *(Add Screenshot)* |
 
+</div>
 
+---
 
-## 👩‍💻 Author
+# 📈 Roadmap
 
-**Tasnem Islam Prome**
+- ✅ Login Automation
+- ✅ Registration Automation
+- ✅ Form Validation
+- 🔄 Cross-browser Testing
+- 🔄 Docker Support
+- 🔄 Jenkins CI/CD
+- 🔄 GitHub Actions
+- 🔄 Parallel Execution
+- 🔄 Allure Reporting
 
-QA Automation • Software Testing • Python • Selenium
+---
 
+# 🎯 Skills Demonstrated
 
+<div align="center">
 
-⭐ If you found this project useful, please consider giving it a star.
+| QA | Automation | Programming |
+|----|------------|-------------|
+| Selenium | Pytest | Python |
+| Regression Testing | Functional Testing | Test Automation |
+| Bug Verification | HTML Reports | Git & GitHub |
+
+</div>
+
+---
+
+# 🌟 Why This Project?
+
+✔ Demonstrates real-world QA automation
+
+✔ Uses industry-standard tools
+
+✔ Easily expandable
+
+✔ Clean project architecture
+
+✔ Recruiter-friendly portfolio project
+
+---
+
+<div align="center">
+
+# 👩‍💻 Tasnem Islam Prome
+
+### QA Automation Engineer • Python Developer • Software Tester
+
+<p>
+<a href="https://github.com/tasnem-tech">
+<img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github">
+</a>
+</p>
+
+⭐ **If you like this project, consider giving it a Star!**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,100:0F2027&height=120&section=footer"/>
+
+</div>
